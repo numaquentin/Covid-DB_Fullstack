@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 @Table
 public class VaccinationCenter {
     @Id
-    private int id;
+    private Integer id;
     private String name;
     private String city;
     private String address;

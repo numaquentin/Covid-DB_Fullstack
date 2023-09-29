@@ -1,5 +1,8 @@
 package org.polytech.covid.repository;
 
-public class VaccinationCenterRepository {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface VaccinationCenterRepository 
+    extends JpaRepository<VaccinationCenter, Integer> {
+        public List<VaccinationCenter> findAllByCityLike(String city);
 }
