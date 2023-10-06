@@ -16,7 +16,7 @@ public class VaccinationCenterService {
     private VaccinationCenterRepository centerRepository;
 
     public List<VaccinationCenter> findAllByCity(String CityName){
-        return centerRepository.findAllByCityLike(CityName);
+        return centerRepository.findAllByCity(CityName);
     }
 
     public List<VaccinationCenter> findAll(){

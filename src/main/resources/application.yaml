@@ -4,9 +4,20 @@ spring:
   datasource:
     url : jdbc:postgresql://localhost:5432/covid-db
     username: postgres
-    password: ShulkisOP/2308
+    password: Samilopiter22$
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate.ddl-auto: create
 
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+      hibernate:
+        SQL: debug
+        type:
+          descriptor:
+            sql:
+              BasicBinder: TRACE
