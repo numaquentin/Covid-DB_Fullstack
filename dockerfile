@@ -1,5 +1,5 @@
 FROM eclipse-temurin:17-jdk-jammy
-RUN ls
+
 RUN apt-get update
 RUN apt-get --yes install git
 WORKDIR /src1
