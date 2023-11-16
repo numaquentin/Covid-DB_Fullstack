@@ -20,7 +20,7 @@ services:
 # Jenkins Controller
   jenkins:
   # Build DockerFile in build/jenkins repository
-    build: build/jenkins
+    build: ./jenkins-compose/build/jenkins
     privileged: true
     user: root
     # http://localhost:8001 for UI
