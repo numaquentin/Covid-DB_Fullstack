@@ -2,7 +2,7 @@
 
 ## Build en local via Docker
 
-- Clonez dans un premier temps le projet :
+- Dans un terminal, clonez le projet suivant :
 
 ```git clone https://github.com/numaquentin/Covid-DB_Fullstack```
 
@@ -12,7 +12,7 @@
 
 ## Build via Jenkins
 
-- Clonez dans un premier temps le projet suivant : 
+- Dans un terminal, clonez le projet suivant : 
 
 ```git clone https://github.com/jredel/jenkins-compose```
 
