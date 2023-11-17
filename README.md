@@ -6,7 +6,7 @@
 
 ```git clone https://github.com/numaquentin/Covid-DB_Fullstack```
 
-- Lancez le docker-compose :
+- Entrez dans le projet et lancez le docker-compose :
 
 ```cd Covid-DB_Fullstack && docker compose up -d```
 
@@ -16,7 +16,7 @@
 
 ```git clone https://github.com/jredel/jenkins-compose```
 
-- Lancez l'application : 
+- Entrez dans le projet et lancez le docker-compose :
 
 ```cd jenkins-compose && docker compose up```
 
