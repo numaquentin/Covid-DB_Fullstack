@@ -24,6 +24,4 @@
 
 - Créez un nouveau pipeline avec le code contenu dans le fichier 'Jenkinsfile'.
 
-- Enfin, lancez le build pour build l'image et la push sur Dockerhub, elle sera ensuite accessible à l'adresse suivante : 
-
-`https://hub.docker.com/u/numaquentin`
+- Enfin, lancez le build pour build l'image et la push sur Dockerhub, elle sera ensuite disponible sur `numaquentin/covid-db-fullstack`.
