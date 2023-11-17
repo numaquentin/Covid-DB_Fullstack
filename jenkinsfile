@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone') {
+            steps {
+                git branch: 'jenkins-build', url: 'https://github.com/numaquentin/Covid-DB_Fullstack.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                script {
+                    docker.build("numaquentin/covid-db-fullstack");
+                }
+            }
+        }
+
+        stage('Push') {
+            steps {
+                sh 'docker login -u numaquentin -p km53M@TuDE8#J;m'
+                sh 'docker image push numaquentin/covid-db-fullstack'
+            }
+        }
+    }
+}
