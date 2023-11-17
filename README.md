@@ -1,6 +1,6 @@
 # Covid-DB_Fullstack
 
-## Build en local via Docker
+## Build du projet en local via Docker
 
 - Dans un terminal, clonez le projet suivant :
 
@@ -10,7 +10,7 @@
 
 ```cd Covid-DB_Fullstack && docker compose up -d```
 
-## Build via Jenkins
+## Build du projet via Jenkins + push vers le Dockerhub
 
 - Dans un terminal, clonez le projet suivant : 
 
