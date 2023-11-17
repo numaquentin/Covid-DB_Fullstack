@@ -20,9 +20,9 @@
 
 ```cd jenkins-compose && docker compose up```
 
-- Rendez-vous ensuite à l'adresse suivante : `http://localhost:8001`.
+- Rendez-vous ensuite à l'adresse suivante : `http://localhost:8001` pour se connecter à Jenkins.
 
-- Créez un nouveau pipeline avec le code contenu dans le fichier 'Jenkinsfile'
+- Créez un nouveau pipeline avec le code contenu dans le fichier 'Jenkinsfile'.
 
 - Enfin, lancez le build pour build l'image et la push sur Dockerhub, elle sera ensuite accessible à l'adresse suivante : 
 
